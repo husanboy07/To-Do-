@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: url(../image/background.jpg);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 4px solid white;
+    border-radius: 50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 43%;
+}
+
+.card h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30%;
+    margin-top: 7%;
+    font-size: 70px;
+}
+
+.modal{
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    background-color: gray;
+    margin-top: 20%;
+    margin-left: 36%;
+    width: 300px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.box_one{
+    position: absolute;
+    border: none;
+    background-color: gray;
+    margin-top: 25%;
+    margin-left: 36%;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+button{
+    position: absolute;
+    padding: 10px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    margin-top: 30%;
+    margin-left: 36%;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.go{
+    background-color: black;
+}
+
+/* button:active{
+    border: 3px solid black;
+} */
+
+.box3{
+    display: none;
+}
